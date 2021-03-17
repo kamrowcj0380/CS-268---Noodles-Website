@@ -1,1 +1,18 @@
+.header{
 
+}
+
+.navbar{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.navbar_link {
+  text-decoration:none;
+  background-color:red;
+}
+
+body{
+  background-color: #EDD9B0;
+}
