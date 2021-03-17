@@ -1,18 +1,35 @@
-.header{
-
+#header, #navbar {
+  background-color: #228B22;
+  margin:0;
 }
 
-.navbar{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
+#welcome {
+  margin: 0;
 }
 
+#navbar{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;
+  background-color:gray;
+}
 .navbar_link {
   text-decoration:none;
-  background-color:red;
+  background-color:white;
+  padding:5px;
+  margin: 0px 1px;
+  text-align:center;
 }
-
 body{
   background-color: #EDD9B0;
+  margin:0;
+}
+
+img{
+  width: 50%;
+  margin: 10px;
+}
+
+p{
+  color: gray;
+  margin: 10px;
 }
