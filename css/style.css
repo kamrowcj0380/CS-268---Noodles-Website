@@ -81,6 +81,13 @@
 
 }
 
+.restaurant_header{
+	background-color: #A52A2A;
+	grid-column: span 4;
+	display: flex;
+	justify-content: space-around;
+}
+
 .restaurant_container > *{
 	border: solid 6px #A52A2A;
 }
