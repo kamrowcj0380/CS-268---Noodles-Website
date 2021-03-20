@@ -77,11 +77,11 @@
 	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	text-align: center;
 
 }
 
 .restaurant_header{
+	border: solid 4px #68a4ff;
 	background-color: #A52A2A;
 	grid-column: span 4;
 	display: flex;
@@ -100,6 +100,7 @@
 
 .restaurant_container p{
 	font-size: 20px;
+	text-align: center;
 }
 
 body{
@@ -117,13 +118,14 @@ h2,h3{
 }
 
 li{
-	color: gray;
 	font-size: 20px;
+	font-weight: bold;
 }
 
 #footer{
 	background-color:#f5ebd7;
 	width:100%;
+	text-align: center;
 }
 
 #footer > p {
