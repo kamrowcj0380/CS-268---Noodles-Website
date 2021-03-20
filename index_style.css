@@ -9,6 +9,10 @@
 	margin-bottom: 0;
 }
 
+#content {
+	min-height: 0;
+}
+
 #index_welcome_image {
 	display:grid;
 	grid-area: 1 / 1 / span 3 / span 3;
