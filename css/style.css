@@ -146,7 +146,7 @@ li{
 }
 
 @media (max-width: 700px) {
-	#sidebar, #navbar_spacer {
+	#navbar_spacer {
 		display:none;
 	}
 	#navbar {
