@@ -33,7 +33,7 @@
 	top:0;
 }
 
-.navbar_link, #navbar_spacer{
+.navbar_link{
 	text-decoration:none;
 	background-color:#f5ebd7;
 	padding:10px 5px;
