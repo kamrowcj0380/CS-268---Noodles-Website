@@ -20,8 +20,9 @@
 	height: 40%;
 }
 
-.restaurant_container > h2, a{
+.restaurant_container > a{
 	text-align: center;
+	text-decoration: none;
 }
 
 .restaurant_container p{
@@ -39,4 +40,8 @@
 
 .restaurant_table > ul{
 	list-style-position: inside;
+}
+
+h2{
+	color:white;
 }
