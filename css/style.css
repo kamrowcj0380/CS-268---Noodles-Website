@@ -9,10 +9,18 @@
 }
 
 #content {
-	width:90%;
+	width:80%;
 	margin: auto;
 	min-height: 90vh;
 	padding-bottom: 100px;
+}
+
+.subtopic {
+	margin-left:40px;
+}
+
+.topic > p, .subtopic > p {
+	margin-left:20px;
 }
 
 #navbar{
@@ -25,7 +33,7 @@
 	top:0;
 }
 
-.navbar_link{
+.navbar_link, #navbar_spacer{
 	text-decoration:none;
 	background-color:#f5ebd7;
 	padding:10px 5px;
@@ -57,14 +65,13 @@ h2,h3{
 }
 
 li{
+	color: gray;
 	font-size: 20px;
-	font-weight: bold;
 }
 
 #footer{
 	background-color:#f5ebd7;
 	width:100%;
-	text-align: center;
 }
 
 #footer > p {
