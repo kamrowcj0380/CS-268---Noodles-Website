@@ -1,0 +1,42 @@
+.restaurant_table{
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border-radius: 5px;
+}
+
+.restaurant_container{
+	border: solid 10px black;
+	background-color: #A52A2A;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+
+.restaurant_container img{
+	margin: 0;
+	width: 100%;
+	height: 40%;
+}
+
+.restaurant_container > h2, a{
+	text-align: center;
+}
+
+.restaurant_container p{
+	font-size: 20px;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.restaurant_table{
+		display: block;
+		width:50%;
+		grid-template-columns: 1fr;
+	}
+}
+
+.restaurant_table > ul{
+	list-style-position: inside;
+}
