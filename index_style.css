@@ -6,14 +6,11 @@
 #index_welcome {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
 	margin-bottom: 0;
 }
 
 #index_welcome_image {
 	display:grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
 	grid-area: 1 / 1 / span 3 / span 3;
 }
 
