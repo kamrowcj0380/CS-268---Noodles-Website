@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 	<head>
@@ -7,6 +6,7 @@
 		<title>Contact Us</title>
 		<link rel="shortcut icon" type="image/jpg" href="https://flyclipart.com/thumb2/chinese-noodles-royalty-free-vector-clip-art-illustration-87670.png"/>
 		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/contact_us_style.css"/>
 
 	</head>
 	<body>
@@ -21,23 +21,41 @@
 			<a class="navbar_link" href="homemade.html">Homemade</a>
 			<a class="navbar_link" href="history.html">History</a>
 			<a class="navbar_link" href="about.html">About</a>
-			<div class="navbar_link" style="margin-right:0px;"></div> <!--Empty space to continue grid styling-->
+			<div id="navbar_spacer" style="margin-right:0px;"></div> <!--Empty space to continue grid styling-->
 		</div>
 
-		<div id="container">
+		<div id="content">
+			<h1>Have a question? Notice any errors? Let us know!</h1>
+			<form>
+				<div>
+					<label>First Name: <input type="text" name="firstname"></label>
+				</div>
+				<br>
+				<br>
+				<div>
+					<label>Reason For Contact: </label>
+					<select>
+						<option value="question">Question</option>
+						<option value="bug">Report a bug</option>
+						<option value="information">Advice/incorrect information</option>
+					</select>
+				</div>
+				<br>
+				<br>
+				<div>
+					<label>Please Explain The Question/Bug/Advice:</label>
+					<br>
+					<textarea value="explaination"></textarea>
+				</div>
+				<div>
+					<input type="submit" name="submit" value="Submit">
+					<input type="reset" name="reset" value="Reset">
+				</div>
+			</form>
+		</div>
 
-			<div id="content">
-				<h2>Have a question? Notice any errors? Let us know!</h2>
-				<p>Noodles are a type of food made from unleavened dough which is rolled flat and cut, stretched or extruded, into long strips or strings. Noodles can be refrigerated for short-term storage or dried and stored for future use.</p>
-				<h2>Why Noodles?</h2>
-				<p>Mother of four kills children in noodle bath</p>
-				<img src="http://www.rightthisminute.com/sites/default/files/videos/images/ramen-bath-video.jpg" alt="Mom and four kids in a bathtub full of noodles"/>
-			</div>
-
-			<div id="footer">
-				<p>A website made by Connor and Zach for a CS 268 Project</p>
-			</div>
-
+		<div id="footer">
+			<p>A website made by Connor and Zach for a CS 268 Project</p>
 		</div>
 
 	</body>
