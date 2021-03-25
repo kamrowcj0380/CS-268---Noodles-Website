@@ -92,3 +92,36 @@ li{
 	margin-bottom:0;
 	padding:10px;
 }
+
+#page_welcome, #page_welcome_image {
+	width:100%;
+	margin:0;
+}
+
+#page_welcome {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 0;
+}
+
+#page_welcome_image {
+	display:grid;
+	grid-area: 1 / 1 / span 3 / span 3;
+}
+
+#page_welcome_text {
+	color: white;
+	text-align: center;
+	grid-area: 1 / 1;
+	padding-left: 4vw;
+}
+
+#page_welcome_header {
+	color: white;
+	font-size: 6vw;
+}
+
+#page_welcome_subheader {
+	color: white;
+	font-size: 4vw;
+}
