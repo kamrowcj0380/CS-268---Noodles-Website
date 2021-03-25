@@ -25,6 +25,12 @@
 	text-decoration: none;
 }
 
+.restaurant_container > p > a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
 .restaurant_container p{
 	font-size: 20px;
 	text-align: center;

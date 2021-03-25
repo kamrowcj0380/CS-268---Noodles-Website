@@ -27,6 +27,11 @@ p {
 	font-size:20px;
 }
 
+.topic > p > a{
+	text-decoration-line: none;
+	text-decoration-color: black;
+}
+
 #navbar{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
