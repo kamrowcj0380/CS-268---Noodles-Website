@@ -23,6 +23,10 @@
 	margin-left:20px;
 }
 
+p {
+	font-size:20px;
+}
+
 #navbar{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
