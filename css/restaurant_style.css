@@ -42,6 +42,10 @@
 	list-style-position: inside;
 }
 
+.restaurant_container li{
+	color: black;
+}
+
 h2{
 	color:white;
 }
