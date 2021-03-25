@@ -46,6 +46,10 @@
 	background-color: #baa884;
 }
 
+.navbar_link:visited{
+	color: black;
+}
+
 #current_link {
 	background-color: #9c8965;
 }
