@@ -30,27 +30,25 @@
 			</div>
 			<form>
 				<div>
-					<label>Name: <input type="text" name="name"></label>
+					<input type="text" name="name" placeholder="Name" />
 				</div>
 				<div>
-					<label>Phone number: <input type="text" name="phonenumber" placeholder="ex. (555) 298-0233"></label>
+					<input type="text" name="phonenumber" placeholder="Phone number" />
 				</div>
 				<div>
-					<label>Reason For Contact: </label>
 					<select>
+						<option value="" disabled selected hidden>What is the problem?</option>
 						<option value="question">Question</option>
 						<option value="bug">Report a bug</option>
 						<option value="information">Advice/incorrect information</option>
 					</select>
 				</div>
 				<div>
-					<label>Please Explain The Question/Bug/Advice:</label>
-					<br>
-					<textarea id="explaination"></textarea>
+					<textarea id="explaination" placeholder="Give a short description of the problem."></textarea>
 				</div>
 				<div>
-					<input type="submit" name="submit" value="Submit">
-					<input type="reset" name="reset" value="Reset">
+					<input class="form_button" type="submit" name="submit" value="Submit">
+					<input class="form_button" type="reset" name="reset" value="Reset">
 				</div>
 			</form>
 		</div>
