@@ -90,7 +90,12 @@ li{
 
 #footer > p {
 	margin-bottom:0;
-	padding:10px;
+	padding-top:10px;
+}
+
+#validated {
+    text-align: left;
+    display: inline;
 }
 
 #page_welcome, #page_welcome_image {
